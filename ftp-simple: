@@ -1,0 +1,10 @@
+var ftp = new EasyFTP();
+var config = {
+    host: 'www.hasanandcaroline.lol',
+    port: 21,
+    username: 'id',
+    password: 'password',
+    type : 'ftp'
+};
+ftp.connect(config);
+
